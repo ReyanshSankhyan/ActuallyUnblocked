@@ -42,6 +42,10 @@ const GamePage = () => {
   if (loading) return html`<div className="p-8 text-center text-slate-500">Loading...</div>`;
   if (!game) return html`<div className="p-8 text-center text-slate-500">Game not found</div>`;
 
+  // Default permissions if none provided in data
+  const defaultSandbox = "allow-scripts allow-popups allow-forms allow-same-origin allow-popups-to-escape-sandbox allow-downloads";
+  const defaultPermissions = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+
   return html`
     <div className="flex flex-col h-full bg-arcade-900 min-h-screen">
       <div className="px-6 py-4 flex items-center gap-4">
@@ -68,8 +72,8 @@ const GamePage = () => {
             title=${game.title}
             className="w-full h-full border-0"
             allowFullScreen
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            sandbox="allow-same-origin allow-scripts allow-forms allow-pointer-lock allow-popups"
+            sandbox=${game.sandbox || defaultSandbox}
+            allow=${game.permissions || defaultPermissions}
           />
           
           ${!isFullscreen ? html`

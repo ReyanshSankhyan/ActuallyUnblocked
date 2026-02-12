@@ -10,76 +10,81 @@ export const GameCategory = {
 // This file acts as our "games.json" storage
 export const GAMES_DATA = [
   {
-    id: "2048-classic",
-    title: "2048",
-    description: "Join the numbers and get to the 2048 tile! A classic puzzle game that tests your logic and strategy.",
-    thumbnail: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/2048_logo.svg/1200px-2048_logo.svg.png",
-    url: "https://play2048.co/",
-    category: GameCategory.PUZZLE,
-    rating: 4.8
-  },
-  {
-    id: "hextris",
-    title: "Hextris",
-    description: "An addictive puzzle game inspired by Tetris. Rotate the hexagon to match colors and clear lines.",
-    thumbnail: "https://raw.githubusercontent.com/Hextris/hextris/gh-pages/images/icons/apple-touch-icon-120x120.png",
-    url: "https://hextris.io/",
-    category: GameCategory.PUZZLE,
-    rating: 4.5
-  },
-  {
-    id: "geo-dash",
-    title: "Geometry Dash Scratch",
-    description: "Jump and fly your way through danger in this rhythm-based action platformer.",
-    thumbnail: "https://cdn2.scratch.mit.edu/get_image/project/105500895_480x360.png",
-    url: "https://scratch.mit.edu/projects/105500895/embed",
+    id: "bloxd-io",
+    title: "Bloxd.io",
+    description: "Bloxd.io is an IO adventure game with Minecraft-style visuals and multiple game modes, including parkour challenges, creative sandbox building, and combat-based gameplay.",
+    thumbnail: "https://images.crazygames.com/bloxdhop-io/20210211150422/bloxdhop-io-cover?auto=format,compress&q=75&cs=strip",
+    url: "https://games.crazygames.com/en_US/bloxdhop-io/index.html?v=1.350",
     category: GameCategory.ACTION,
-    rating: 4.7
+    rating: 4.9,
+    sandbox: "allow-forms allow-modals allow-orientation-lock allow-pointer-lock allow-presentation allow-scripts allow-same-origin allow-downloads allow-popups allow-popups-to-escape-sandbox",
+    permissions: "autoplay; payment; fullscreen; microphone; focus-without-user-activation *; screen-wake-lock; gamepad; clipboard-read; clipboard-write; accelerometer; gyroscope;"
   },
   {
-    id: "paper-io",
-    title: "Paper.io 2",
-    description: "Conquer as much territory as possible and beat the competition. A smooth drawing experience!",
-    thumbnail: "https://play-lh.googleusercontent.com/1-hPxD25N6yW9Y8_O5r6rKk8Z8h_1j4-1_8_1_8_1_8_1_8.png",
-    url: "https://paper-io.com/", 
-    category: GameCategory.STRATEGY,
-    rating: 4.6
-  },
-  {
-    id: "minecraft-classic",
-    title: "Minecraft Classic",
-    description: "Play the classic version of Minecraft directly in your browser. Build, destroy, and explore.",
-    thumbnail: "https://image.api.playstation.com/vulcan/img/rnd/202010/2123/ABCD1234.png", // Placeholder generic
-    url: "https://classic.minecraft.net/",
-    category: GameCategory.ARCADE,
-    rating: 4.9
-  },
-  {
-    id: "slope",
-    title: "Slope",
-    description: "Drive a ball in the 3D running game in slope Game. Easy to controls, high speed, and addictive gameplay.",
-    thumbnail: "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/b5bd34054bc849159d949d50021d2369.png",
-    url: "https://kbhgames.com/game/slope",
+    id: "night-city-racing",
+    title: "Night City Racing",
+    description: "Gear up for heart-pounding races and wild challenges! Race incredible supercars, pull off epic stunts, and play solo or against a friend.",
+    thumbnail: "https://images.crazygames.com/night-city-racing/20230112144747/night-city-racing-cover?auto=format,compress&q=75&cs=strip",
+    url: "https://games.crazygames.com/en_US/night-city-racing/index.html?v=1.350",
     category: GameCategory.RACING,
-    rating: 4.4
+    rating: 4.7,
+    sandbox: "allow-forms allow-modals allow-orientation-lock allow-pointer-lock allow-presentation allow-scripts allow-same-origin allow-downloads allow-popups allow-popups-to-escape-sandbox",
+    permissions: "autoplay; payment; fullscreen; microphone; focus-without-user-activation *; screen-wake-lock; gamepad; clipboard-read; clipboard-write; accelerometer; gyroscope;"
   },
   {
-    id: "tiny-fishing",
-    title: "Tiny Fishing",
-    description: "Cast your line and catch as many fish as you can. Upgrade your gear to reach deeper depths.",
-    thumbnail: "https://img.gamedistribution.com/48a80820d82142cb91b97b6e8284698b-512x512.jpeg",
-    url: "https://html5.gamedistribution.com/48a80820d82142cb91b97b6e8284698b/",
-    category: GameCategory.ARCADE,
-    rating: 4.3
+    id: "spiderdoll",
+    title: "SpiderDoll",
+    description: "Swing through the city like a superhero! Wrap bad guys in webs, escape OctoPuppet, and save Mary in this physics-based action game.",
+    thumbnail: "https://images.crazygames.com/spiderdoll/20210319150422/spiderdoll-cover?auto=format,compress&q=75&cs=strip",
+    url: "https://games.crazygames.com/en_US/spiderdoll/index.html?v=1.350",
+    category: GameCategory.ACTION,
+    rating: 4.6,
+    sandbox: "allow-forms allow-modals allow-orientation-lock allow-pointer-lock allow-presentation allow-scripts allow-same-origin allow-downloads allow-popups allow-popups-to-escape-sandbox",
+    permissions: "autoplay; payment; fullscreen; microphone; focus-without-user-activation *; screen-wake-lock; gamepad; clipboard-read; clipboard-write; accelerometer; gyroscope;"
   },
   {
-    id: "stack",
-    title: "Stack Tower",
-    description: "Stack the blocks as high as you can! Test your reflexes in this simple yet challenging game.",
-    thumbnail: "https://picsum.photos/400/400?random=1",
-    url: "https://html5games.com/Game/Stack_Tower/357643b1-7009-4503-a3b0-279092490b6a", 
+    id: "jet-rush",
+    title: "Jet Rush",
+    description: "Pilot a high-tech jet plane through challenging courses. Avoid obstacles, collect coins, and upgrade your jet in this fast-paced arcade game.",
+    thumbnail: "https://images.crazygames.com/jet-rush/20211116160844/jet-rush-cover?auto=format,compress&q=75&cs=strip",
+    url: "https://games.crazygames.com/en_US/jet-rush/index.html?isNewUser=false&v=1.350",
     category: GameCategory.ARCADE,
-    rating: 4.2
+    rating: 4.5,
+    sandbox: "allow-forms allow-modals allow-orientation-lock allow-pointer-lock allow-presentation allow-scripts allow-same-origin allow-downloads allow-popups allow-popups-to-escape-sandbox",
+    permissions: "autoplay; payment; fullscreen; microphone; focus-without-user-activation *; screen-wake-lock; gamepad; clipboard-read; clipboard-write; accelerometer; gyroscope;"
+  },
+  {
+    id: "traffic-rider",
+    title: "Traffic Rider",
+    description: "An exhilarating first-person motorbike endless racing game. Weave through traffic, upgrade your bike, and conquer career missions.",
+    thumbnail: "https://images.crazygames.com/traffic-rider-vvq/20240404100414/traffic-rider-vvq-cover?auto=format,compress&q=75&cs=strip",
+    url: "https://games.crazygames.com/en_US/traffic-rider-vvq/index.html?isNewUser=false&v=1.350",
+    category: GameCategory.RACING,
+    rating: 4.8,
+    sandbox: "allow-forms allow-modals allow-orientation-lock allow-pointer-lock allow-presentation allow-scripts allow-same-origin allow-downloads allow-popups allow-popups-to-escape-sandbox",
+    permissions: "autoplay; payment; fullscreen; microphone; focus-without-user-activation *; screen-wake-lock; gamepad; clipboard-read; clipboard-write; accelerometer; gyroscope;"
+  },
+  {
+    id: "sonic-1-wasm",
+    title: "Sonic the Hedgehog",
+    description: "The classic 1991 platformer. Race at lightning speeds as Sonic the Hedgehog to save the animals from Dr. Robotnik in this web port.",
+    thumbnail: "https://upload.wikimedia.org/wikipedia/en/3/30/Sonic_the_Hedgehog_1_Genesis_box_art.jpg",
+    url: "https://revolution641.github.io/Sonic-1-WASM/",
+    category: GameCategory.ARCADE,
+    rating: 4.9,
+    sandbox: "allow-scripts allow-popups allow-forms allow-same-origin allow-popups-to-escape-sandbox allow-downloads allow-storage-access-by-user-activation",
+    permissions: "autoplay; fullscreen; gamepad; accelerometer; gyroscope; clipboard-write"
+  },
+  {
+    id: "stickman-gta",
+    title: "Stickman GTA City",
+    description: "Roam the streets in this open-world stickman action game. Drive cars, complete missions, and cause chaos in the city.",
+    thumbnail: "https://img.gamedistribution.com/0c66316d90f2452da6959b58328b9d99-512x512.jpeg",
+    url: "https://dnrweqffuwjtx.cloudfront.net/games/2024/unity3/stickman-gta-city/pre.html",
+    category: GameCategory.ACTION,
+    rating: 4.3,
+    sandbox: "allow-scripts allow-popups allow-forms allow-same-origin allow-popups-to-escape-sandbox allow-downloads allow-storage-access-by-user-activation",
+    permissions: "autoplay; fullscreen; gamepad; accelerometer; gyroscope; clipboard-write"
   }
 ];
 
